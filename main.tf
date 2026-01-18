@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-west-2" 
+  region = "eu-west-3" 
 }
 
 resource "aws_s3_bucket" "mi_bucket_automatizado" {
